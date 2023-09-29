@@ -23,6 +23,9 @@ const Page = () => {
     }
     }
     useEffect(()=>{
+      console.log("helllooo");
+    },[])
+    useEffect(()=>{
         window.addEventListener("scroll",scrollHandler)
     //  return ()=>window.removeEventListener("scroll",scrollHandler)
     },[count])
