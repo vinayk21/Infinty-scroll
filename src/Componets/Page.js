@@ -22,7 +22,9 @@ const Page = () => {
         setCount((ee)=>ee+10)
     }
     }
-   
+   useEffect(()=>{
+    console.log("heeeeeelelelelelelelele");
+   },[])
     useEffect(()=>{
         window.addEventListener("scroll",scrollHandler)
     //  return ()=>window.removeEventListener("scroll",scrollHandler)
